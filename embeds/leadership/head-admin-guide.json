@@ -1,0 +1,96 @@
+{
+  "content": "<@&HEAD_ADMIN_ROLE_ID>",
+  "embeds": [
+    {
+      "author": { "name": "🪩 Head Administrator — Role Guide" },
+      "title": "Head Administrator",
+      "color": 16023734,
+      "description": "You are the **senior admin managing and leading the moderation team**. You are the primary point of escalation from Admins and Mods, responsible for team consistency, training, and handling complex cases.",
+      "fields": [
+        {
+          "name": "📋 Core Responsibilities",
+          "value": "• Lead and manage the Administrator and Moderator team\n• Quality-check moderation decisions for consistency\n• Handle cases escalated by Admins and Mods\n• Conduct regular staff check-ins\n• Review ban appeals from the moderation queue\n• Train and onboard new Moderators\n• Enforce staff conduct standards"
+        },
+        {
+          "name": "🛠️ How to Issue a Punishment",
+          "value": "1️⃣ Identify the rule violated (e.g. B2, C1)\n2️⃣ Check the member's warn history via bot\n3️⃣ Apply the appropriate punishment tier\n4️⃣ Log the action in #mod-log\n5️⃣ Notify the member via DM if required\n6️⃣ Document context for future reference\n\n**Temp ban limit:** Up to 30 days independently.\n**Permanent bans:** Require Executive sign-off."
+        },
+        {
+          "name": "⚡ Authority Overview",
+          "value": "• Full moderation permissions across all public channels\n• Can issue and reverse all punishment types\n• Can manage Administrators and Moderators\n• Can flag cases to Executives\n• Access to moderation logs and audit tools"
+        },
+        {
+          "name": "📤 Handle Directly",
+          "value": "• All routine punishments (mutes, kicks, temp bans)\n• Moderator performance concerns\n• Member appeals for bans up to 30 days\n• Ticket resolutions\n• Staff scheduling and activity checks"
+        },
+        {
+          "name": "🚨 Escalate to Executive / Co-Owner",
+          "value": "• Permanent ban appeals that are borderline\n• Staff misconduct reports against Administrators\n• Situations requiring server-wide action\n• Cases involving multiple departments\n• Any unresolved situation after 3 attempts"
+        },
+        {
+          "name": "📞 Escalation Chain",
+          "value": "**Receives from:** Admins, Head Mods, Mods\n**Escalates to:** Executive → Head Executive"
+        },
+        {
+          "name": "🌐 Key Links",
+          "value": "🔗 [Admin Panel](https://tshe.noxxbot.com/admin) — Site management\n📜 [Rules Page](https://tshe.noxxbot.com/rules) — Community rules\n🛡️ [Staff Guide](https://tshe.noxxbot.com/staff) — Role guide\n⚖️ [Appeal System](https://appeal.gg/s/1466990155020898413) — Ban appeals\n⚠️ [Punishment Guide](https://tshe.noxxbot.com/punish) — Tier reference"
+        }
+      ],
+      "footer": { "text": "TSHE Staff Guide — Head Administrator • tshe.noxxbot.com/staff" }
+    }
+  ],
+  "components": [
+    {
+      "type": 1,
+      "components": [
+        {
+          "type": 2,
+          "style": 5,
+          "label": "Admin Panel Login",
+          "url": "https://tshe.noxxbot.com/admin",
+          "emoji": { "name": "🔑" }
+        },
+        {
+          "type": 2,
+          "style": 5,
+          "label": "Staff Guide",
+          "url": "https://tshe.noxxbot.com/staff",
+          "emoji": { "name": "🛡️" }
+        },
+        {
+          "type": 2,
+          "style": 5,
+          "label": "Punishment Guide",
+          "url": "https://tshe.noxxbot.com/punish",
+          "emoji": { "name": "⚖️" }
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "components": [
+        {
+          "type": 2,
+          "style": 5,
+          "label": "Server Rules",
+          "url": "https://tshe.noxxbot.com/rules",
+          "emoji": { "name": "📜" }
+        },
+        {
+          "type": 2,
+          "style": 5,
+          "label": "Appeal System",
+          "url": "https://appeal.gg/s/1466990155020898413",
+          "emoji": { "name": "📋" }
+        },
+        {
+          "type": 2,
+          "style": 5,
+          "label": "AutoMod Limits",
+          "url": "https://tshe.noxxbot.com/automod",
+          "emoji": { "name": "🤖" }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "content": "<@&HEAD_MOD_ROLE_ID>",
+  "embeds": [
+    {
+      "author": { "name": "🌙 Head Moderator — Role Guide" },
+      "title": "Head Moderator",
+      "color": 6316159,
+      "description": "You **lead the Moderator team** and act as the primary bridge between Mods and Administrators. You assign cases, review punishments, handle escalations, and keep the team consistent and active.",
+      "fields": [
+        {
+          "name": "📋 Core Responsibilities",
+          "value": "• Lead day-to-day moderation operations\n• Assign cases to Moderators\n• Review and approve significant punishments\n• Conduct weekly moderator briefings\n• Escalate complex cases to Administrators\n• Monitor moderator activity and performance\n• Handle member complaints about Moderators"
+        },
+        {
+          "name": "🛠️ How to Manage Your Team",
+          "value": "1️⃣ Check in with Moderators **at least twice a week**\n2️⃣ Review the mod-log **daily** for inconsistencies or errors\n3️⃣ Offer guidance on edge-case situations before they escalate\n4️⃣ Flag underperforming Mods to Head Admin privately\n5️⃣ Celebrate good moderation in staff chat — recognition matters"
+        },
+        {
+          "name": "⚡ Authority Overview",
+          "value": "• Can issue mutes, kicks, and temp bans up to 7 days independently\n• Can approve Moderator-issued actions\n• Must escalate all bans beyond 7 days to Administrators\n• Access to moderation logs\n• Can flag cases directly to Administrator level"
+        },
+        {
+          "name": "📤 Handle Directly",
+          "value": "• All Moderator-level punishments\n• Routine escalations from Mods\n• Member complaints about chat behavior\n• Temp bans up to 7 days\n• Daily mod-log review and corrections"
+        },
+        {
+          "name": "🚨 Escalate to Administrator",
+          "value": "• Any ban beyond 7 days\n• Members with 6+ active warnings\n• Doxxing, CSAM, NSFW, or raid situations\n• Staff conduct issues among Moderators\n• Complex cases where the correct action is unclear"
+        },
+        {
+          "name": "📞 Escalation Chain",
+          "value": "**Receives from:** Moderators\n**Escalates to:** Administrator → Head Administrator"
+        },
+        {
+          "name": "🌐 Key Links",
+          "value": "🔗 [Staff Guide](https://tshe.noxxbot.com/staff) — Role responsibilities\n📜 [Rules Page](https://tshe.noxxbot.com/rules) — Community rules\n⚖️ [Punishment Guide](https://tshe.noxxbot.com/punish) — Tier reference\n⚠️ [AutoMod Limits](https://tshe.noxxbot.com/automod) — Automated rules"
+        }
+      ],
+      "footer": { "text": "TSHE Staff Guide — Head Moderator • tshe.noxxbot.com/staff" }
+    }
+  ],
+  "components": [
+    {
+      "type": 1,
+      "components": [
+        {
+          "type": 2,
+          "style": 5,
+          "label": "Staff Guide",
+          "url": "https://tshe.noxxbot.com/staff",
+          "emoji": { "name": "🛡️" }
+        },
+        {
+          "type": 2,
+          "style": 5,
+          "label": "Punishment Guide",
+          "url": "https://tshe.noxxbot.com/punish",
+          "emoji": { "name": "⚖️" }
+        },
+        {
+          "type": 2,
+          "style": 5,
+          "label": "Server Rules",
+          "url": "https://tshe.noxxbot.com/rules",
+          "emoji": { "name": "📜" }
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "components": [
+        {
+          "type": 2,
+          "style": 5,
+          "label": "AutoMod Limits",
+          "url": "https://tshe.noxxbot.com/automod",
+          "emoji": { "name": "🤖" }
+        },
+        {
+          "type": 2,
+          "style": 5,
+          "label": "Docs & Definitions",
+          "url": "https://tshe.noxxbot.com/docs",
+          "emoji": { "name": "📚" }
+        },
+        {
+          "type": 2,
+          "style": 5,
+          "label": "Full Website",
+          "url": "https://tshe.noxxbot.com",
+          "emoji": { "name": "🌐" }
+        }
+      ]
+    }
+  ]
+}

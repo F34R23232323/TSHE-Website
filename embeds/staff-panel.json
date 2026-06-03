@@ -1,0 +1,51 @@
+{
+  "content": null,
+  "embeds": [
+    {
+      "author": { "name": "⚔️ SnowHaven Staff Hierarchy" },
+      "color": 16766720,
+      "description": "Below is the complete staff hierarchy for The SnowHaven Empire. Staff members are here to enforce the rules, help members, and keep the server safe.\n\n**Do not DM staff for moderation issues.** Use the ticket system or report channel.",
+      "image": { "url": "https://images.noxxbot.com/de4VYqFQlkB4B2VeEy660erui59mCEeGl02" },
+      "fields": [
+        {
+          "name": "👑 Leadership",
+          "value": "👑 **Foundership Team** — Founding members, highest authority\n🧑‍🤝‍🧑 **Co-Founder** — Co-founding members\n⚡ **Owner** — Server owner, absolute final authority\n👑 **Co Owner** — Top-level administrative powers"
+        },
+        {
+          "name": "🏛️ Administration",
+          "value": "⛏️ **Head Executive** — Senior executive, major decisions\n🏛️ **Executive** — Core leadership, oversees departments\n🪩 **Head Administrator** — Manages the moderation team\n🔥 **Administrator** — Full admin, broad moderation authority"
+        },
+        {
+          "name": "🛡️ Moderation",
+          "value": "🌙 **Head Moderator** — Leads moderators, handles escalated cases\n🌀 **Moderator** — Active enforcement of community rules"
+        },
+        {
+          "name": "📋 Staff Guidelines",
+          "value": "• All staff decisions are **final**\n• Respectful questioning is allowed — public arguments are not\n• Use the appeal system for contested actions\n• Do not DM staff about moderation issues"
+        }
+      ],
+      "footer": { "text": "All staff are volunteers. Treat them with respect." }
+    }
+  ],
+  "components": [
+    {
+      "type": 1,
+      "components": [
+        {
+          "type": 2,
+          "style": 5,
+          "label": "Submit Appeal",
+          "url": "https://appeal.gg/s/1466990155020898413",
+          "emoji": { "name": "⚖️" }
+        },
+        {
+          "type": 2,
+          "style": 5,
+          "label": "Server Rules",
+          "url": "https://tshe.noxxbot.com/rules",
+          "emoji": { "name": "📜" }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "content": null,
+  "embeds": [
+    {
+      "author": { "name": "❄️ The SnowHaven Empire — Roles & Leveling" },
+      "color": 8307171,
+      "description": "Level up by being active in chat to unlock permissions and earn exclusive roles. The more you engage, the more you unlock.\n\n**VIP members and Nitro Boosters** receive all permission tiers immediately — no grind required.",
+      "image": { "url": "https://images.noxxbot.com/de4VYqFQlkB4B2VeEy660erui59mCEeGl02" },
+      "fields": [
+        {
+          "name": "⭐ Level Milestone Roles",
+          "value": "🥇 **First Place** — #1 on the Leaderboard\n💯 **Godlike** — Level 100\n🔱 **Mythic** — Level 80\n☯️ **Legend** — Level 60\n🪄 **Ace** — Level 40\n✴️ **Touch Grass** — Level 30\n✨ **Good Member** — Level 20\n😎 **Pro** — Level 15\n💫 **Active** — Level 10\n🌟 **Starter** — Level 5\n⭐ **Newbie** — Level 1"
+        },
+        {
+          "name": "🔓 Permission Unlocks",
+          "value": "**Level 10+** — External Emojis + Sticker permissions\n**Level 20+** — Link sharing + Embed permissions\n**Level 30+** — Image posting permissions\n\n💎 **VIP & Nitro Boosters** — All permissions unlocked immediately"
+        }
+      ],
+      "footer": { "text": "Stay active, level up, and unlock more of SnowHaven." }
+    }
+  ],
+  "components": [
+    {
+      "type": 1,
+      "components": [
+        {
+          "type": 2,
+          "style": 5,
+          "label": "Full Roles Guide",
+          "url": "https://tshe.noxxbot.com/roles",
+          "emoji": { "name": "⭐" }
+        },
+        {
+          "type": 2,
+          "style": 5,
+          "label": "Server Rules",
+          "url": "https://tshe.noxxbot.com/rules",
+          "emoji": { "name": "📜" }
+        }
+      ]
+    }
+  ]
+}

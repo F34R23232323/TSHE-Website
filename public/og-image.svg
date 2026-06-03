@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#060c1a"/>
+      <stop offset="100%" stop-color="#0e1530"/>
+    </linearGradient>
+    <linearGradient id="glow1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#7ec8e3" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#7ec8e3" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="glow2" x1="100%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%"   stop-color="#c9a84c" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#c9a84c" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="title" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#d4f1fa"/>
+      <stop offset="50%"  stop-color="#7ec8e3"/>
+      <stop offset="100%" stop-color="#c9a84c"/>
+    </linearGradient>
+    <filter id="blur1">
+      <feGaussianBlur stdDeviation="80"/>
+    </filter>
+    <filter id="blur2">
+      <feGaussianBlur stdDeviation="60"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Ambient blobs -->
+  <circle cx="150" cy="150" r="400" fill="url(#glow1)" filter="url(#blur1)"/>
+  <circle cx="1100" cy="520" r="350" fill="url(#glow2)" filter="url(#blur2)"/>
+
+  <!-- Border frame -->
+  <rect x="1" y="1" width="1198" height="628" rx="0" fill="none" stroke="rgba(126,200,227,0.12)" stroke-width="1.5"/>
+  <rect x="20" y="20" width="1160" height="590" rx="12" fill="none" stroke="rgba(126,200,227,0.06)" stroke-width="1"/>
+
+  <!-- Snowflake icon background -->
+  <rect x="540" y="80" width="120" height="120" rx="24"
+    fill="rgba(126,200,227,0.08)" stroke="rgba(126,200,227,0.25)" stroke-width="1.5"/>
+
+  <!-- Snowflake SVG paths (Lucide snowflake) -->
+  <g transform="translate(600, 140)" stroke="#a8e6f0" stroke-width="2.5" stroke-linecap="round" fill="none">
+    <line x1="0" y1="-38" x2="0" y2="38"/>
+    <line x1="-33" y1="-19" x2="33" y2="19"/>
+    <line x1="-33" y1="19" x2="33" y2="-19"/>
+    <line x1="-10" y1="-28" x2="0" y2="-38"/>
+    <line x1="10" y1="-28" x2="0" y2="-38"/>
+    <line x1="-10" y1="28" x2="0" y2="38"/>
+    <line x1="10" y1="28" x2="0" y2="38"/>
+    <line x1="-43" y1="-9" x2="-33" y2="-19"/>
+    <line x1="-43" y1="-29" x2="-33" y2="-19"/>
+    <line x1="43" y1="-9" x2="33" y2="-19"/>
+    <line x1="43" y1="-29" x2="33" y2="-19"/>
+    <line x1="-43" y1="29" x2="-33" y2="19"/>
+    <line x1="-43" y1="9" x2="-33" y2="19"/>
+    <line x1="43" y1="29" x2="33" y2="19"/>
+    <line x1="43" y1="9" x2="33" y2="19"/>
+  </g>
+
+  <!-- Eyebrow label -->
+  <rect x="467" y="228" width="266" height="32" rx="16"
+    fill="rgba(126,200,227,0.08)" stroke="rgba(126,200,227,0.2)" stroke-width="1"/>
+  <text x="600" y="249" text-anchor="middle"
+    font-family="Georgia, serif" font-size="13" font-weight="600"
+    fill="#7ec8e3" letter-spacing="3">THE SNOWHAVEN EMPIRE</text>
+
+  <!-- Main title -->
+  <text x="600" y="330" text-anchor="middle"
+    font-family="Georgia, 'Times New Roman', serif" font-size="72" font-weight="700"
+    fill="url(#title)" letter-spacing="-1">SnowHaven</text>
+
+  <!-- Subtitle -->
+  <text x="600" y="385" text-anchor="middle"
+    font-family="Georgia, serif" font-size="30" font-weight="400"
+    fill="rgba(170,200,220,0.7)" letter-spacing="2">Community Hub</text>
+
+  <!-- Divider line -->
+  <line x1="400" y1="415" x2="800" y2="415" stroke="rgba(126,200,227,0.2)" stroke-width="1"/>
+
+  <!-- Description -->
+  <text x="600" y="450" text-anchor="middle"
+    font-family="Arial, sans-serif" font-size="18"
+    fill="rgba(126,160,190,0.8)">Rules · FAQ · AutoMod · Punishments · Docs</text>
+
+  <!-- URL pill -->
+  <rect x="476" y="480" width="248" height="36" rx="18"
+    fill="rgba(126,200,227,0.06)" stroke="rgba(126,200,227,0.15)" stroke-width="1"/>
+  <text x="600" y="503" text-anchor="middle"
+    font-family="monospace, Courier" font-size="15"
+    fill="rgba(126,200,227,0.6)" letter-spacing="1">tshe.noxxbot.com</text>
+
+  <!-- Decorative corner snowflakes (small) -->
+  <g transform="translate(60,60)" stroke="rgba(126,200,227,0.2)" stroke-width="1.5" stroke-linecap="round" fill="none">
+    <line x1="0" y1="-14" x2="0" y2="14"/>
+    <line x1="-12" y1="-7" x2="12" y2="7"/>
+    <line x1="-12" y1="7" x2="12" y2="-7"/>
+  </g>
+  <g transform="translate(1140,60)" stroke="rgba(126,200,227,0.2)" stroke-width="1.5" stroke-linecap="round" fill="none">
+    <line x1="0" y1="-14" x2="0" y2="14"/>
+    <line x1="-12" y1="-7" x2="12" y2="7"/>
+    <line x1="-12" y1="7" x2="12" y2="-7"/>
+  </g>
+  <g transform="translate(60,570)" stroke="rgba(201,168,76,0.2)" stroke-width="1.5" stroke-linecap="round" fill="none">
+    <line x1="0" y1="-14" x2="0" y2="14"/>
+    <line x1="-12" y1="-7" x2="12" y2="7"/>
+    <line x1="-12" y1="7" x2="12" y2="-7"/>
+  </g>
+  <g transform="translate(1140,570)" stroke="rgba(201,168,76,0.2)" stroke-width="1.5" stroke-linecap="round" fill="none">
+    <line x1="0" y1="-14" x2="0" y2="14"/>
+    <line x1="-12" y1="-7" x2="12" y2="7"/>
+    <line x1="-12" y1="7" x2="12" y2="-7"/>
+  </g>
+</svg>
