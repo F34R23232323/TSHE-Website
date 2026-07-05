@@ -1,0 +1,85 @@
+{
+  "content": null,
+  "embeds": [
+    {
+      "title": "❄️ The SnowHaven Empire — Information Center",
+      "description": "Welcome to **The SnowHaven Empire**! Use the buttons below or the dropdown to access all server guides, roles, and resources. Stay informed, follow the rules, and enjoy the community!",
+      "color": 8307171,
+      "image": { "url": "https://images.noxxbot.com/de4VYqFQlkB4B2VeEy660erui59mCEeGl02" },
+      "author": { "name": "TSHE Server Hub" },
+      "footer": {
+        "text": "The SnowHaven Empire | tshe.noxxbot.com | Read the rules to avoid penalties."
+      },
+      "fields": [
+        {
+          "name": "🔹 Quick Access",
+          "value": "- Use **buttons** for direct access to rules and roles.\n- Use the **dropdown** for detailed guides.\n- Check **definitions** for key terms.\n- Read **moderation notes** if you're a staff member."
+        },
+        {
+          "name": "📌 Tips",
+          "value": "- Stay active in chat to level up and unlock permissions.\n- VIP and Nitro Boosters get all perms immediately.\n- Always provide evidence when reporting members.\n- Follow the escalation procedures and use proper channels."
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "type": 1,
+      "components": [
+        {
+          "type": 2,
+          "style": 1,
+          "label": "Rules Part 1",
+          "custom_id": "rules_part_1",
+          "emoji": { "name": "📖" }
+        },
+        {
+          "type": 2,
+          "style": 1,
+          "label": "Rules Part 2",
+          "custom_id": "rules_part_2",
+          "emoji": { "name": "📝" }
+        },
+        {
+          "type": 2,
+          "style": 2,
+          "label": "AutoMod Limits",
+          "custom_id": "limits_automod",
+          "emoji": { "name": "📊" }
+        },
+        {
+          "type": 2,
+          "style": 5,
+          "label": "Website",
+          "url": "https://tshe.noxxbot.com",
+          "emoji": { "name": "🌐" }
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "components": [
+        {
+          "type": 3,
+          "custom_id": "info_center_select",
+          "placeholder": "Select a guide to view more information.",
+          "min_values": 1,
+          "max_values": 1,
+          "options": [
+            { "label": "📊 AutoMod Limits",    "value": "AutoMod Limits",    "description": "View spam limits, filters, and automod protections.",          "emoji": { "name": "📊" } },
+            { "label": "⭐ Leveling & Roles",  "value": "Leveling Roles",    "description": "Level milestones, permission unlocks, and role perks.",       "emoji": { "name": "⭐" } },
+            { "label": "⚔️ Staff Hierarchy",  "value": "Staff Hierarchy",   "description": "Full staff rank list from Moderator to Foundership Team.",    "emoji": { "name": "⚔️" } },
+            { "label": "🔔 Ping Roles",        "value": "Ping Roles",        "description": "See all available notification roles and what they cover.",   "emoji": { "name": "🔔" } },
+            { "label": "⚠️ Warning System",   "value": "Warning System",    "description": "Review warning levels and corresponding penalties.",          "emoji": { "name": "⚠️" } },
+            { "label": "🛠️ Punishment Guide", "value": "Punishment Guide",  "description": "Penalties for major offenses and how infractions escalate.",  "emoji": { "name": "🛠️" } },
+            { "label": "📢 Report Help",       "value": "Report Help",       "description": "Learn how to report violations with proper evidence.",        "emoji": { "name": "📢" } },
+            { "label": "📚 Key Definitions",  "value": "Definitions",       "description": "Understand terms like Toxicity, Harassment, Hate Speech.",    "emoji": { "name": "📚" } },
+            { "label": "📝 Moderation Notes", "value": "Notes",             "description": "Staff guidance and escalation policies.",                     "emoji": { "name": "📝" } },
+            { "label": "ℹ️ Basic Information", "value": "Basic Information", "description": "Server channels, roles, and general guidelines.",            "emoji": { "name": "ℹ️" } },
+            { "label": "❓ FAQ",               "value": "FAQ",               "description": "Frequently asked questions about the server.",               "emoji": { "name": "❓" } }
+          ]
+        }
+      ]
+    }
+  ]
+}

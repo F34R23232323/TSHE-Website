@@ -1,0 +1,55 @@
+{
+  "content": null,
+  "embeds": [
+    {
+      "author": { "name": "🔔 SnowHaven — Notification Roles" },
+      "color": 8307171,
+      "description": "Select which notifications you want to receive. Click the dropdown below to pick your pings, or use the buttons to manage your roles.\n\n**All ping roles are opt-in.** You won't receive a ping unless you have the role.",
+      "image": { "url": "https://images.noxxbot.com/de4VYqFQlkB4B2VeEy660erui59mCEeGl02" },
+      "fields": [
+        {
+          "name": "📢 Server Notifications",
+          "value": "📢 **Announcements** — Major server announcements\n🔧 **Bot Updates** — Bot changes and updates\n🔌 **Bot Status** — Outages and restarts\n🔨 **Server Updates** — Channel and rule changes"
+        },
+        {
+          "name": "🎉 Community & Events",
+          "value": "✋ **Votes** — Community polls and votes\n💀 **Dead Chat Revival** — Chat revival pings\n📅 **Events Ping** — Game nights and events\n🎁 **Giveaways** — Prize giveaways"
+        },
+        {
+          "name": "📌 Misc Pings",
+          "value": "📤 **Upload Pings** — New content uploads\n💛 **Partners Ping** — Partner announcements\n🤯 **Exposes Ping** — Community exposes\n👀 **Sneak Peaks** — Upcoming previews\n🤖 **Bots** — Bot-related announcements"
+        }
+      ],
+      "footer": { "text": "You can add or remove ping roles at any time." }
+    }
+  ],
+  "components": [
+    {
+      "type": 1,
+      "components": [
+        {
+          "type": 3,
+          "custom_id": "ping_roles_select",
+          "placeholder": "Select notification roles to add/remove...",
+          "min_values": 1,
+          "max_values": 13,
+          "options": [
+            { "label": "📢 Announcements",    "value": "ping_announcements",  "description": "Major server announcements" },
+            { "label": "🔧 Bot Updates",      "value": "ping_bot_updates",    "description": "Bot changes and updates" },
+            { "label": "🔌 Bot Status",       "value": "ping_bot_status",     "description": "Bot outages and restarts" },
+            { "label": "🔨 Server Updates",   "value": "ping_server_updates", "description": "Channel and rule changes" },
+            { "label": "✋ Votes",            "value": "ping_votes",          "description": "Community polls and votes" },
+            { "label": "💀 Dead Chat Revival","value": "ping_dead_chat",      "description": "Chat revival pings" },
+            { "label": "📅 Events Ping",      "value": "ping_events",         "description": "Game nights and community events" },
+            { "label": "🎁 Giveaways",        "value": "ping_giveaways",      "description": "Server giveaways and prizes" },
+            { "label": "📤 Upload Pings",     "value": "ping_uploads",        "description": "New content uploads" },
+            { "label": "💛 Partners Ping",    "value": "ping_partners",       "description": "Partner server announcements" },
+            { "label": "🤯 Exposes Ping",     "value": "ping_exposes",        "description": "Community exposure posts" },
+            { "label": "👀 Sneak Peaks",      "value": "ping_sneak_peaks",    "description": "Upcoming feature previews" },
+            { "label": "🤖 Bots",             "value": "ping_bots",           "description": "General bot announcements" }
+          ]
+        }
+      ]
+    }
+  ]
+}

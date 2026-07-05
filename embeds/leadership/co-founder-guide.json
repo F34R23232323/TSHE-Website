@@ -1,0 +1,92 @@
+{
+  "content": "<@&CO_FOUNDER_ROLE_ID>",
+  "embeds": [
+    {
+      "author": { "name": "🧑‍🤝‍🧑 Co-Founder — Role Guide" },
+      "title": "Co-Founder",
+      "color": 16083018,
+      "description": "As a Co-Founder, you helped build The SnowHaven Empire from the ground up. You hold **permanent senior authority** — a step above the Owner in matters of vision, culture, and structural decisions.",
+      "fields": [
+        {
+          "name": "📋 Core Responsibilities",
+          "value": "• Supporting the Foundership Team and Owner in major decisions\n• Acting as senior advisor on policy and community direction\n• Overseeing high-level operations when the Owner is unavailable\n• Reviewing and approving significant structural changes\n• Serving as arbitrators when Owner and Co-Owner disagree\n• Maintaining the founding vision and culture of the server"
+        },
+        {
+          "name": "🔑 Admin Panel Access",
+          "value": "Co-Founders have **full access** to the TSHE website admin panel to manage all site content, toggle maintenance mode, update rules, guides, and all public-facing information.\n\n**URL:** https://tshe.noxxbot.com/admin\n**Credentials:** Provided by the Foundership Team — never share or write in Discord."
+        },
+        {
+          "name": "⚡ Authority Overview",
+          "value": "• Near-unrestricted server permissions, second only to Foundership Team\n• Can override Owner decisions in exceptional circumstances\n• Full access to all staff channels, logs, and server settings\n• Can approve or veto Co-Owner and Executive appointments\n• Can issue any punishment type without restriction"
+        },
+        {
+          "name": "🚨 When to Act Directly",
+          "value": "• When the Owner and Co-Owner are in dispute\n• Cases that have been escalated past the Owner level\n• Misconduct by Owner or Co-Owner\n• Decisions that set long-term precedent for the server\n\nFor day-to-day moderation: let the chain handle it."
+        },
+        {
+          "name": "📞 Escalation Chain",
+          "value": "**Receives escalations from:** Owner, Co-Owner\n**Escalates to:** Foundership Team (exceptional cases only)"
+        },
+        {
+          "name": "🌐 Key Links",
+          "value": "🔗 [Admin Panel](https://tshe.noxxbot.com/admin) — Full site control\n📜 [Rules Page](https://tshe.noxxbot.com/rules) — Community rules\n🛡️ [Staff Guide](https://tshe.noxxbot.com/staff) — Public role guide\n⚖️ [Appeal System](https://appeal.gg/s/1466990155020898413) — Ban appeals"
+        }
+      ],
+      "footer": { "text": "TSHE Leadership Guide — Co-Founder • tshe.noxxbot.com/staff" }
+    }
+  ],
+  "components": [
+    {
+      "type": 1,
+      "components": [
+        {
+          "type": 2,
+          "style": 5,
+          "label": "Admin Panel Login",
+          "url": "https://tshe.noxxbot.com/admin",
+          "emoji": { "name": "🔑" }
+        },
+        {
+          "type": 2,
+          "style": 5,
+          "label": "Staff Guide",
+          "url": "https://tshe.noxxbot.com/staff",
+          "emoji": { "name": "🛡️" }
+        },
+        {
+          "type": 2,
+          "style": 5,
+          "label": "Server Rules",
+          "url": "https://tshe.noxxbot.com/rules",
+          "emoji": { "name": "📜" }
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "components": [
+        {
+          "type": 2,
+          "style": 5,
+          "label": "Punishment Guide",
+          "url": "https://tshe.noxxbot.com/punish",
+          "emoji": { "name": "⚖️" }
+        },
+        {
+          "type": 2,
+          "style": 5,
+          "label": "Appeal System",
+          "url": "https://appeal.gg/s/1466990155020898413",
+          "emoji": { "name": "📋" }
+        },
+        {
+          "type": 2,
+          "style": 5,
+          "label": "Full Website",
+          "url": "https://tshe.noxxbot.com",
+          "emoji": { "name": "🌐" }
+        }
+      ]
+    }
+  ]
+}

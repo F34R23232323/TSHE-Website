@@ -1,0 +1,96 @@
+{
+  "content": "<@&ADMIN_ROLE_ID>",
+  "embeds": [
+    {
+      "author": { "name": "🔥 Administrator — Role Guide" },
+      "title": "Administrator",
+      "color": 16351089,
+      "description": "You are a **full server administrator** with broad moderation authority. You handle serious violations, support the Moderator team, and keep the server safe and welcoming.",
+      "fields": [
+        {
+          "name": "📋 Core Responsibilities",
+          "value": "• Monitor all public channels for rule violations\n• Issue punishments for serious infractions\n• Assist Head Mods with escalated cases\n• Review moderation tickets from members\n• Respond to staff pings and reports promptly\n• Support and guide the Moderator team"
+        },
+        {
+          "name": "🛠️ How to Handle a Ticket",
+          "value": "1️⃣ **Claim** the ticket so others know it's being handled\n2️⃣ **Read the full context** — don't jump to conclusions\n3️⃣ **Gather evidence** from relevant channels\n4️⃣ **Apply** the appropriate action per punishment tiers\n5️⃣ **Inform** the ticket creator of the outcome\n6️⃣ **Close and log** the ticket in #mod-log\n\n**Temp ban limit:** Up to 14 days independently.\n**Permanent bans:** Require Head Admin sign-off."
+        },
+        {
+          "name": "⚡ Authority Overview",
+          "value": "• Full punishment authority (mute, kick, ban)\n• Temp bans up to 14 days independently\n• Permanent bans with Head Admin approval\n• Access to moderation logs and ticket system\n• Can manage Moderators in absence of Head Admin"
+        },
+        {
+          "name": "📤 Handle Directly",
+          "value": "• All mutes and temp bans up to 14 days\n• Ticket resolutions\n• Standard rule enforcement\n• Escalated Moderator reports\n• Channel cleanup and message management"
+        },
+        {
+          "name": "🚨 Escalate to Head Administrator",
+          "value": "• Permanent ban decisions\n• Appeals from previously banned members\n• Situations involving multiple departments\n• Staff misconduct reports\n• Any case you're uncertain about — always better to ask"
+        },
+        {
+          "name": "📞 Escalation Chain",
+          "value": "**Receives from:** Head Mods, Mods\n**Escalates to:** Head Administrator → Executive"
+        },
+        {
+          "name": "🌐 Key Links",
+          "value": "🔗 [Staff Guide](https://tshe.noxxbot.com/staff) — Role responsibilities\n📜 [Rules Page](https://tshe.noxxbot.com/rules) — Community rules\n⚖️ [Punishment Guide](https://tshe.noxxbot.com/punish) — Tier reference\n⚠️ [AutoMod Limits](https://tshe.noxxbot.com/automod) — Automated rules\n📋 [Appeal System](https://appeal.gg/s/1466990155020898413) — Ban appeals"
+        }
+      ],
+      "footer": { "text": "TSHE Staff Guide — Administrator • tshe.noxxbot.com/staff" }
+    }
+  ],
+  "components": [
+    {
+      "type": 1,
+      "components": [
+        {
+          "type": 2,
+          "style": 5,
+          "label": "Staff Guide",
+          "url": "https://tshe.noxxbot.com/staff",
+          "emoji": { "name": "🛡️" }
+        },
+        {
+          "type": 2,
+          "style": 5,
+          "label": "Punishment Guide",
+          "url": "https://tshe.noxxbot.com/punish",
+          "emoji": { "name": "⚖️" }
+        },
+        {
+          "type": 2,
+          "style": 5,
+          "label": "Server Rules",
+          "url": "https://tshe.noxxbot.com/rules",
+          "emoji": { "name": "📜" }
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "components": [
+        {
+          "type": 2,
+          "style": 5,
+          "label": "AutoMod Limits",
+          "url": "https://tshe.noxxbot.com/automod",
+          "emoji": { "name": "🤖" }
+        },
+        {
+          "type": 2,
+          "style": 5,
+          "label": "Appeal System",
+          "url": "https://appeal.gg/s/1466990155020898413",
+          "emoji": { "name": "📋" }
+        },
+        {
+          "type": 2,
+          "style": 5,
+          "label": "Full Website",
+          "url": "https://tshe.noxxbot.com",
+          "emoji": { "name": "🌐" }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "content": "<@&CO_OWNER_ROLE_ID>",
+  "embeds": [
+    {
+      "author": { "name": "👑 Co-Owner — Role Guide" },
+      "title": "Co Owner",
+      "color": 15253098,
+      "description": "You hold **top-level administrative authority**, second only to the Owner. You act as primary decision-maker when the Owner is unavailable and oversee the entire staff chain below you.",
+      "fields": [
+        {
+          "name": "📋 Core Responsibilities",
+          "value": "• Assist the Owner with daily server operations\n• Act as primary authority when the Owner is offline\n• Oversee Head Executives, Executives, and Administrators\n• Handle ban appeals escalated from Head Administrators\n• Review and approve significant moderation actions\n• Participate in all major policy decisions"
+        },
+        {
+          "name": "🔑 Admin Panel Access",
+          "value": "You have full access to the TSHE website admin panel to manage site content, toggle maintenance mode, edit rules, punishments, staff guides, services, and more.\n\n**URL:** https://tshe.noxxbot.com/admin\n**Credentials:** Provided by the Owner — keep them strictly private.\n\nSessions expire after **8 hours**."
+        },
+        {
+          "name": "⚡ Authority Overview",
+          "value": "• Near-full server permissions\n• Can manage all staff below Co-Owner\n• Can issue and reverse all punishment types including permanent bans\n• Can approve staff promotions up to Administrator level\n• Access to all staff channels and logs"
+        },
+        {
+          "name": "🚨 When to Act Directly",
+          "value": "• Head Administrator cannot resolve a situation\n• A ban appeal requires high-level review\n• Inter-staff conflict needing senior intervention\n• Owner is offline and an urgent decision is required\n• Any Executive-level staff misconduct report"
+        },
+        {
+          "name": "📞 Escalation Chain",
+          "value": "**Receives from:** Head Executive, Executives, Head Admins\n**Escalates to:** Owner (critical situations only)\n\nHandle as much as possible at your level — only escalate to the Owner for decisions that broadly affect the server or involve leadership misconduct."
+        },
+        {
+          "name": "🌐 Key Links",
+          "value": "🔗 [Admin Panel](https://tshe.noxxbot.com/admin) — Site management\n📜 [Rules Page](https://tshe.noxxbot.com/rules) — Community rules\n🛡️ [Staff Guide](https://tshe.noxxbot.com/staff) — Public role guide\n⚖️ [Appeal System](https://appeal.gg/s/1466990155020898413) — Ban appeals"
+        }
+      ],
+      "footer": { "text": "TSHE Leadership Guide — Co-Owner • tshe.noxxbot.com/staff" }
+    }
+  ],
+  "components": [
+    {
+      "type": 1,
+      "components": [
+        {
+          "type": 2,
+          "style": 5,
+          "label": "Admin Panel Login",
+          "url": "https://tshe.noxxbot.com/admin",
+          "emoji": { "name": "🔑" }
+        },
+        {
+          "type": 2,
+          "style": 5,
+          "label": "Staff Guide",
+          "url": "https://tshe.noxxbot.com/staff",
+          "emoji": { "name": "🛡️" }
+        },
+        {
+          "type": 2,
+          "style": 5,
+          "label": "Server Rules",
+          "url": "https://tshe.noxxbot.com/rules",
+          "emoji": { "name": "📜" }
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "components": [
+        {
+          "type": 2,
+          "style": 5,
+          "label": "Punishment Guide",
+          "url": "https://tshe.noxxbot.com/punish",
+          "emoji": { "name": "⚖️" }
+        },
+        {
+          "type": 2,
+          "style": 5,
+          "label": "Appeal System",
+          "url": "https://appeal.gg/s/1466990155020898413",
+          "emoji": { "name": "📋" }
+        },
+        {
+          "type": 2,
+          "style": 5,
+          "label": "Full Website",
+          "url": "https://tshe.noxxbot.com",
+          "emoji": { "name": "🌐" }
+        }
+      ]
+    }
+  ]
+}

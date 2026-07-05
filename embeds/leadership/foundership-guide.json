@@ -1,0 +1,92 @@
+{
+  "content": "<@&FOUNDERSHIP_ROLE_ID>",
+  "embeds": [
+    {
+      "author": { "name": "👑 Foundership Team — Role Guide" },
+      "title": "Foundership Team",
+      "color": 16083018,
+      "description": "The Foundership Team holds **absolute and unrestricted authority** over The SnowHaven Empire. You are the founding members who built this server — its culture, rules, and direction are a reflection of your vision.",
+      "fields": [
+        {
+          "name": "📋 Core Responsibilities",
+          "value": "• Establishing and maintaining TSHE's long-term vision and culture\n• Setting server-wide policy and overarching rules\n• Final authority on all structural changes to the server\n• Handling the most severe cases escalated from the Owner\n• Approving or revoking leadership positions (Owner, Co-Owner)\n• Managing major partnerships and external community relations\n• Ensuring TSHE operates ethically and sustainably long-term"
+        },
+        {
+          "name": "🔑 Admin Panel — Full Access",
+          "value": "The Foundership Team has **master access** to the TSHE website admin panel. All site content, rules, punishments, staff guides, services, maintenance mode, and embed settings are controlled here.\n\n**URL:** https://tshe.noxxbot.com/admin\n**Email & Password:** Set in your server's `.env` file.\n\n⚠️ These credentials are **strictly confidential**. Never share, delegate, or write them in Discord."
+        },
+        {
+          "name": "⚡ Authority Overview",
+          "value": "• Unrestricted server permissions — no exceptions\n• Can override any decision made by any staff member\n• Full access to all channels, logs, bots, and settings\n• Can restructure the entire staff hierarchy\n• Only the Foundership Team can dissolve or reform the server"
+        },
+        {
+          "name": "🚨 When to Act Directly",
+          "value": "Intervene only for exceptional circumstances:\n• Existential threats — mass raids, legal issues, community crises\n• Corruption or misconduct at Owner or Co-Owner level\n• Major partnership agreements or structural collaborations\n• Decisions that affect the identity or future of TSHE\n\nFor day-to-day matters: let the Owner and Co-Owner handle it."
+        },
+        {
+          "name": "📞 Escalation Chain",
+          "value": "**Everyone → You**\nThere is no escalation above the Foundership Team. All final decisions rest here."
+        },
+        {
+          "name": "🌐 Key Links",
+          "value": "🔗 [Admin Panel](https://tshe.noxxbot.com/admin) — Full site control\n📜 [Rules Page](https://tshe.noxxbot.com/rules) — Community rules\n🛡️ [Staff Guide](https://tshe.noxxbot.com/staff) — Public role guide\n⚖️ [Appeal System](https://appeal.gg/s/1466990155020898413) — Ban appeals\n⚠️ [Punishment Guide](https://tshe.noxxbot.com/punish) — Tier reference"
+        }
+      ],
+      "footer": { "text": "TSHE Leadership Guide — Foundership Team • tshe.noxxbot.com/staff" }
+    }
+  ],
+  "components": [
+    {
+      "type": 1,
+      "components": [
+        {
+          "type": 2,
+          "style": 5,
+          "label": "Admin Panel Login",
+          "url": "https://tshe.noxxbot.com/admin",
+          "emoji": { "name": "🔑" }
+        },
+        {
+          "type": 2,
+          "style": 5,
+          "label": "Staff Guide",
+          "url": "https://tshe.noxxbot.com/staff",
+          "emoji": { "name": "🛡️" }
+        },
+        {
+          "type": 2,
+          "style": 5,
+          "label": "Server Rules",
+          "url": "https://tshe.noxxbot.com/rules",
+          "emoji": { "name": "📜" }
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "components": [
+        {
+          "type": 2,
+          "style": 5,
+          "label": "Punishment Guide",
+          "url": "https://tshe.noxxbot.com/punish",
+          "emoji": { "name": "⚖️" }
+        },
+        {
+          "type": 2,
+          "style": 5,
+          "label": "Appeal System",
+          "url": "https://appeal.gg/s/1466990155020898413",
+          "emoji": { "name": "📋" }
+        },
+        {
+          "type": 2,
+          "style": 5,
+          "label": "Full Website",
+          "url": "https://tshe.noxxbot.com",
+          "emoji": { "name": "🌐" }
+        }
+      ]
+    }
+  ]
+}

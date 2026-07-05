@@ -1,0 +1,100 @@
+{
+  "content": "<@&MODERATOR_ROLE_ID>",
+  "embeds": [
+    {
+      "author": { "name": "🌀 Moderator — Role Guide" },
+      "title": "Moderator",
+      "color": 3394764,
+      "description": "You are the **frontline of TSHE moderation**. You keep the server safe and welcoming by enforcing rules consistently, responding to reports, and escalating when needed. When in doubt — ask, don't assume.",
+      "fields": [
+        {
+          "name": "📋 Core Responsibilities",
+          "value": "• Monitor public channels in real time\n• Enforce rules consistently and fairly\n• Issue warnings, mutes, and kicks for violations\n• Respond to member reports promptly\n• Document all moderation actions in #mod-log\n• Escalate serious cases to Head Moderator\n• Maintain a welcoming environment for new members"
+        },
+        {
+          "name": "🛠️ How to Issue a Warning",
+          "value": "1️⃣ Identify the rule violated (e.g. `A1`, `B2`, `C1`)\n2️⃣ Use the bot command: `/warn @user [rule] [reason]`\n3️⃣ Post in #mod-log: `username | rule | action taken`\n4️⃣ If it's their **3rd+ warning**, flag to Head Mod immediately\n5️⃣ DM the member with a polite explanation if appropriate\n6️⃣ **Never argue publicly** about warnings with members"
+        },
+        {
+          "name": "⚡ Authority Overview",
+          "value": "• Can delete messages and issue verbal warnings\n• Can apply timeouts/mutes up to **24 hours**\n• Can kick members from the server\n• **Cannot issue bans** — escalate all bans to Head Mod\n• Access to member report tickets"
+        },
+        {
+          "name": "📤 Handle Directly",
+          "value": "• Spam, toxic behavior, minor rule violations\n• Mutes up to 24 hours\n• Kicking disruptive members\n• Message cleanup and channel management\n• Responding to member questions about rules"
+        },
+        {
+          "name": "🚨 ALWAYS Escalate to Head Moderator",
+          "value": "• **Any ban** — even 1 day. Mods do not ban independently\n• Hate speech, doxxing, CSAM, or NSFW content\n• Server raids or coordinated attacks\n• Cases involving other staff members\n• Any situation you are unsure about\n\n**When in doubt, escalate. There is no penalty for asking.**"
+        },
+        {
+          "name": "⚖️ Conduct Standards",
+          "value": "• Stay calm and professional, even with difficult members\n• Never punish out of personal frustration or bias\n• Keep staff discussions confidential\n• Be consistent — same violation = same punishment\n• Own your mistakes and inform Head Mod immediately\n• You represent TSHE — your behavior in other servers matters"
+        },
+        {
+          "name": "📞 Escalation Chain",
+          "value": "**You → Head Moderator → Administrator → Head Admin**\n\nDon't skip levels unless it's an emergency raid or immediate safety threat."
+        },
+        {
+          "name": "🌐 Key Links",
+          "value": "🔗 [Staff Guide](https://tshe.noxxbot.com/staff) — Role responsibilities\n📜 [Rules Page](https://tshe.noxxbot.com/rules) — Community rules\n⚖️ [Punishment Guide](https://tshe.noxxbot.com/punish) — Tier reference\n⚠️ [AutoMod Limits](https://tshe.noxxbot.com/automod) — What gets auto-actioned\n📚 [Docs & Definitions](https://tshe.noxxbot.com/docs) — Key terms"
+        }
+      ],
+      "footer": { "text": "TSHE Staff Guide — Moderator • tshe.noxxbot.com/staff" }
+    }
+  ],
+  "components": [
+    {
+      "type": 1,
+      "components": [
+        {
+          "type": 2,
+          "style": 5,
+          "label": "Staff Guide",
+          "url": "https://tshe.noxxbot.com/staff",
+          "emoji": { "name": "🛡️" }
+        },
+        {
+          "type": 2,
+          "style": 5,
+          "label": "Punishment Guide",
+          "url": "https://tshe.noxxbot.com/punish",
+          "emoji": { "name": "⚖️" }
+        },
+        {
+          "type": 2,
+          "style": 5,
+          "label": "Server Rules",
+          "url": "https://tshe.noxxbot.com/rules",
+          "emoji": { "name": "📜" }
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "components": [
+        {
+          "type": 2,
+          "style": 5,
+          "label": "AutoMod Limits",
+          "url": "https://tshe.noxxbot.com/automod",
+          "emoji": { "name": "🤖" }
+        },
+        {
+          "type": 2,
+          "style": 5,
+          "label": "Docs & Definitions",
+          "url": "https://tshe.noxxbot.com/docs",
+          "emoji": { "name": "📚" }
+        },
+        {
+          "type": 2,
+          "style": 5,
+          "label": "Full Website",
+          "url": "https://tshe.noxxbot.com",
+          "emoji": { "name": "🌐" }
+        }
+      ]
+    }
+  ]
+}

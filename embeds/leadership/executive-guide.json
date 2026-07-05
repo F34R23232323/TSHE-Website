@@ -1,0 +1,60 @@
+{
+  "content": "<@&EXECUTIVE_ROLE_ID>",
+  "embeds": [
+    {
+      "author": { "name": "🏛️ Executive — Role Guide" },
+      "title": "Executive",
+      "color": 11141290,
+      "description": "You are part of the **core leadership team** overseeing all departments. You work closely with Head Executives to keep the server running smoothly, support Administrators, and handle escalated cases.",
+      "fields": [
+        {
+          "name": "📋 Core Responsibilities",
+          "value": "• Oversee the Administrator team day-to-day\n• Review escalated moderation cases from Head Admins\n• Assist the Head Executive with server-wide projects\n• Participate in policy and rule discussions\n• Monitor department health and staff activity\n• Support Administrators with difficult judgment calls\n• Provide feedback on server changes to Head Executive"
+        },
+        {
+          "name": "🔑 Admin Panel Access",
+          "value": "Executives have access to the TSHE website admin panel for reviewing site content and assisting leadership with updates when directed.\n\n**URL:** https://tshe.noxxbot.com/admin\n**Credentials:** Provided by Head Executive or above — keep confidential."
+        },
+        {
+          "name": "⚡ Authority Overview",
+          "value": "• Admin-level permissions across all server channels\n• Can issue temp bans up to 14 days independently\n• Can approve Head Admin decisions on bans up to 30 days\n• Can manage Administrators and Moderators\n• Permanent bans require Head Executive sign-off\n• Access to all moderation logs and staff channels"
+        },
+        {
+          "name": "📤 Handle Directly",
+          "value": "• Temp bans up to 14 days\n• Ticket resolutions referred from Administrators\n• Moderator performance concerns\n• Member appeals for bans up to 14 days\n• Channel conflicts and inter-member disputes"
+        },
+        {
+          "name": "🚨 Escalate to Head Executive",
+          "value": "• Permanent ban decisions\n• Appeals from members banned 30+ days\n• Staff misconduct at Administrator level\n• Decisions requiring server-wide policy change\n• Any unresolved inter-staff conflict after 3 attempts"
+        },
+        {
+          "name": "📞 Escalation Chain",
+          "value": "**Receives from:** Head Admins, Administrators\n**Escalates to:** Head Executive → Co-Owner"
+        },
+        {
+          "name": "🌐 Key Links",
+          "value": "🔗 [Admin Panel](https://tshe.noxxbot.com/admin) — Site management\n📜 [Rules Page](https://tshe.noxxbot.com/rules) — Community rules\n🛡️ [Staff Guide](https://tshe.noxxbot.com/staff) — Public role guide\n⚖️ [Appeal System](https://appeal.gg/s/1466990155020898413) — Ban appeals\n⚠️ [Punishment Guide](https://tshe.noxxbot.com/punish) — Tier reference"
+        }
+      ],
+      "footer": { "text": "TSHE Leadership Guide — Executive • tshe.noxxbot.com/staff" }
+    }
+  ],
+  "components": [
+    {
+      "type": 1,
+      "components": [
+        { "type": 2, "style": 5, "label": "Admin Panel Login", "url": "https://tshe.noxxbot.com/admin", "emoji": { "name": "🔑" } },
+        { "type": 2, "style": 5, "label": "Staff Guide", "url": "https://tshe.noxxbot.com/staff", "emoji": { "name": "🛡️" } },
+        { "type": 2, "style": 5, "label": "Punishment Guide", "url": "https://tshe.noxxbot.com/punish", "emoji": { "name": "⚖️" } }
+      ]
+    },
+    {
+      "type": 1,
+      "components": [
+        { "type": 2, "style": 5, "label": "Server Rules", "url": "https://tshe.noxxbot.com/rules", "emoji": { "name": "📜" } },
+        { "type": 2, "style": 5, "label": "Appeal System", "url": "https://appeal.gg/s/1466990155020898413", "emoji": { "name": "📋" } },
+        { "type": 2, "style": 5, "label": "Full Website", "url": "https://tshe.noxxbot.com", "emoji": { "name": "🌐" } }
+      ]
+    }
+  ]
+}
